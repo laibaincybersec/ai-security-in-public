@@ -1,137 +1,152 @@
-# AI Security in Public
+<p align="center">
+  <img src="banner.svg" alt="AI Security in Public by SISEC: Learn to break AI. Then learn to protect it." width="100%">
+</p>
 
-Learning AI security in public: roadmaps, notes, papers, books, videos, and labs. Open for everyone.
+<p align="center">
+  <img alt="Free" src="https://img.shields.io/badge/roadmap-100%25%20free-6C4CFF?style=for-the-badge">
+  <img alt="Stages" src="https://img.shields.io/badge/stages-11-FFD84D?style=for-the-badge&labelColor=14183A">
+  <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-9CEBD0?style=for-the-badge&labelColor=14183A">
+</p>
 
-![Stars](https://img.shields.io/github/stars/laibaincybersec/ai-security-in-public?style=flat-square&color=00B4D8)
-![Forks](https://img.shields.io/github/forks/laibaincybersec/ai-security-in-public?style=flat-square&color=00B4D8)
-![Last Commit](https://img.shields.io/github/last-commit/laibaincybersec/ai-security-in-public?style=flat-square&color=00B4D8)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-00B4D8?style=flat-square)
+# Hey friends! 👋
 
----
+I'm **Laiba**, an AI security researcher, and this repo is where I learn AI security **in public**.
 
-## What is this?
+It is the home of the **SISEC roadmap**: a free, step-by-step path from zero to a solid AI security foundation. You'll learn how LLMs work, how AI systems get attacked, how to defend them, and how to test them.
 
-This is my public notebook for learning AI security. Everything I find useful goes here, so you can learn along with me:
+SISEC is a free, volunteer-run, non-profit community for anyone curious about AI security: students, engineers, researchers and total beginners.
 
-- Roadmaps and study plans
-- Videos and courses
-- Books
-- Docs and standards
-- Research papers
-- My own notes
-
-## Where to start
-
-Follow the folders in order:
-
-| Step | Folder | What's inside |
-|---|---|---|
-| 0 | [`00-start-here`](./00-start-here) | Roadmap and glossary |
-| 1 | [`01-foundations`](./01-foundations) | ML, LLM, and security basics |
-| 2 | [`02-threats`](./02-threats) | Attacks on AI systems |
-| 3 | [`03-defenses`](./03-defenses) | How to protect AI systems |
-| 4 | [`04-governance-risk-compliance`](./04-governance-risk-compliance) | Frameworks and standards |
-| 5 | [`05-hands-on-labs`](./05-hands-on-labs) | Practice and projects |
-
-Extra folders: [`resources`](./resources), [`case-studies`](./case-studies), [`cheat-sheets`](./cheat-sheets), [`research`](./research).
+```
+   Learn  ─────▶  Practice  ─────▶  Share
+ (roadmap)       (labs, CTFs)     (write-ups,
+                                   newsletter)
+```
 
 ---
 
-## Roadmap
+## ✏️ Start here
 
-**Foundations**
-- [ ] How ML models work
-- [ ] How LLMs work (tokens, RAG, fine-tuning, agents)
-- [ ] Security basics
+Short on time? Do your first week like this, in order:
 
-**Threats**
-- [ ] Prompt injection
-- [ ] Jailbreaks
-- [ ] Data leakage
-- [ ] Data poisoning
-- [ ] Adversarial examples
-- [ ] Risks of AI agents
+```
+  1. Watch   Karpathy's "Intro to Large Language Models"
+        │
+        ▼
+  2. Read    the OWASP Top 10 for LLM Applications
+        │
+        ▼
+  3. Read    the Greshake paper on indirect prompt injection
+        │
+        ▼
+  4. Play    Gandalf (gandalf.lakera.ai)
+        │
+        ▼
+  5. Listen  to one MLSecOps Podcast episode
+```
 
-**Defenses**
-- [ ] Guardrails
-- [ ] AI red teaming
-- [ ] Monitoring and detection
-- [ ] Secure AI lifecycle
-
-**Governance**
-- [ ] NIST AI Risk Management Framework
-- [ ] ISO/IEC 42001
-- [ ] OWASP Top 10 for LLM Applications
-- [ ] MITRE ATLAS
-
-**Practice**
-- [ ] Prompt injection games
-- [ ] CTFs
-- [ ] Build small projects
+Then open the full roadmap and go from Stage 0.
 
 ---
 
-## Resources
+## 🗺️ The roadmap
 
-**Frameworks and standards**
+Part-time (about 5 to 8 hours a week), the whole thing takes **5 to 6 months**. Skip any stage you already know.
 
-| Name | What it is |
-|---|---|
-| [OWASP Top 10 for LLM Applications](https://genai.owasp.org) | Top security risks for LLM apps |
-| [MITRE ATLAS](https://atlas.mitre.org) | Attack techniques against AI systems |
-| [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) | Framework for managing AI risk |
-| [Google SAIF](https://saif.google) | Google's guide to securing AI |
+| Stage | Topic | Time |
+|:--:|---|---|
+| 0 | Prerequisites | 2 to 3 weeks |
+| 1 | Security fundamentals | 3 to 4 weeks |
+| 2 | ML and LLM basics | 2 to 3 weeks |
+| 3 | AI threat landscape and frameworks | 1 to 2 weeks |
+| 4 | Attacking LLM apps | 4 to 5 weeks |
+| 5 | Attacking models and data | 3 to 4 weeks |
+| 6 | Securing RAG, agents, MCP and supply chain | 4 to 5 weeks |
+| 7 | Defenses | 3 to 4 weeks |
+| 8 | Red teaming and tools | ongoing |
+| 9 | Governance basics for security people | 1 to 2 weeks |
+| 10 | Practice, community, career | ongoing |
 
-**Practice**
+**How to use it:** go in order, tick boxes as you finish, and do the hands-on task at the end of each stage. Every stage ends with a **checkpoint**, a small task that proves you got it.
 
-| Name | What it is |
-|---|---|
-| [Gandalf by Lakera](https://gandalf.lakera.ai) | A prompt injection game |
-
-**Research papers**
-
-| Paper | Topic |
-|---|---|
-| [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) | Adversarial examples |
-| [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) | Data leakage |
-| [Not What You've Signed Up For](https://arxiv.org/abs/2302.12173) | Indirect prompt injection |
-| [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | Jailbreaks |
-| [Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149) | Data poisoning |
-
-**Books**
-
-- Not with a Bug, But with a Sticker, by Ram Shankar Siva Kumar and Hyrum Anderson
-- Machine Learning and Security, by Clarence Chio and David Freeman
-- Adversarial Machine Learning, by Anthony Joseph et al.
-
-More lists with my notes are in the [`resources`](./resources) folder.
+👉 **Read it here:** [`ROADMAP.md`](ROADMAP.md)
+👉 **Prefer a clickable chart?** Visit the SISEC website *(link coming soon)*. It draws this same roadmap, saves your progress, and updates whenever this repo changes.
 
 ---
 
-## Progress log
+## 📬 Newsletter
 
-| Week | What I learned |
-|---|---|
-| Week 1 | Set up this repo and my learning plan |
+New attacks, defenses and research, explained in plain words. One email, no spam.
 
-Full log: [progress-log.md](./progress-log.md)
+*(Link coming soon.)*
 
----
+## 💬 Community
 
-## Contribute
+Come hang out, ask questions, share what you're building, or just lurk and read.
 
-Everyone is welcome. You can suggest a resource, fix a mistake, or add a note.
-
-1. Fork this repo
-2. Make your change
-3. Open a pull request with a one-line reason why it's useful
-
-Please share only resources you have actually used. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+*(Invite link coming soon.)*
 
 ---
 
-## Connect
+## 📁 What's in this repo
 
-[LinkedIn](https://www.linkedin.com/in/laibawaseemsec/) | [X](https://x.com/laibaincyber) | [GitHub](https://github.com/laibaincybersec)
+```
+ai-security-in-public/
+├── README.md        ← you are here
+├── ROADMAP.md       ← the full roadmap, easy to read on GitHub
+├── roadmap.json     ← the same roadmap as data; the website reads this file
+└── banner.svg       ← the banner at the top
+```
 
-If this repo helps you, please give it a star.
+> **Heads up:** the website draws its chart from `roadmap.json`. Whenever `ROADMAP.md` changes, update `roadmap.json` too so they match.
+
+---
+
+## 🙌 Contributing
+
+Found a broken link, a better resource, or a missing topic? Please help.
+
+1. Open an **issue** to discuss an idea, or
+2. Open a **pull request** with your fix.
+
+A few small rules:
+
+- Keep everything **free**. If a resource costs money, it doesn't belong here.
+- Add a one-line reason for each new resource, so beginners know why it's good.
+- In `roadmap.json`, **never change a topic's `id`**. Visitors' saved progress is stored by id.
+- Websites change. If a link is dead, say so in an issue.
+
+### How `roadmap.json` is organised
+
+```
+{
+  "common": [                      ← stages, shown in order
+    {
+      "id": "stage-4",
+      "title": "Stage 4: Attacking LLM applications",
+      "summary": "One-line goal of the stage",
+      "topics": [
+        {
+          "id": "s4-1",            ← keep this stable
+          "title": "Direct prompt injection",
+          "desc": "What it is and why it matters",
+          "links": [ { "label": "Gandalf", "url": "https://gandalf.lakera.ai" } ]
+        }
+      ]
+    }
+  ],
+  "paths": []                      ← optional: add paths (Red Team, Blue Team...) later
+}
+```
+
+---
+
+## ⚠️ A note on links
+
+Websites move and change. Please check that a link opens before you share it. Items marked "search by title" in the roadmap are best found with a quick search.
+
+---
+
+<p align="center">
+  Built in public, with ❤️ by <b>Laiba</b> and the <b>SISEC</b> community.<br>
+  <i>Learn to break AI. Then learn to protect it.</i>
+</p>
