@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="AI Security in Public by SISEC: Learn to break AI. Then learn to protect it." width="100%">
+  <img src="assets/banner.svg" alt="AI Security in Public by SISEC: Learn to break AI. Then learn to protect it." width="100%">
 </p>
 
 <p align="center">
@@ -16,41 +16,30 @@ It is the home of the **SISEC roadmap**: a free, step-by-step path from zero to 
 
 SISEC is a free, volunteer-run, non-profit community for anyone curious about AI security: students, engineers, researchers and total beginners.
 
-```
-   Learn  ─────▶  Practice  ─────▶  Share
- (roadmap)       (labs, CTFs)     (write-ups,
-                                   newsletter)
-```
+<p align="center"><img src="assets/flow.svg" alt="Learn, then practice, then share" width="100%"></p>
 
----
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## ✏️ Start here
 
 Short on time? Do your first week like this, in order:
 
-```
-  1. Watch   Karpathy's "Intro to Large Language Models"
-        │
-        ▼
-  2. Read    the OWASP Top 10 for LLM Applications
-        │
-        ▼
-  3. Read    the Greshake paper on indirect prompt injection
-        │
-        ▼
-  4. Play    Gandalf (gandalf.lakera.ai)
-        │
-        ▼
-  5. Listen  to one MLSecOps Podcast episode
-```
+<p align="center"><img src="assets/start.svg" alt="First week: 1 watch Karpathy’s intro to LLMs, 2 read the OWASP LLM Top 10, 3 read the Greshake paper, 4 play Gandalf, 5 listen to one MLSecOps episode" width="100%"></p>
+
 
 Then open the full roadmap and go from Stage 0.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 🗺️ The roadmap
 
 Part-time (about 5 to 8 hours a week), the whole thing takes **5 to 6 months**. Skip any stage you already know.
+
+<p align="center"><img src="assets/map.svg" alt="The 11 roadmap stages, from Stage 0 prerequisites to Stage 10 practice, community and career" width="100%"></p>
+
+<details>
+<summary>Prefer plain text? Open the table</summary>
 
 | Stage | Topic | Time |
 |:--:|---|---|
@@ -66,12 +55,14 @@ Part-time (about 5 to 8 hours a week), the whole thing takes **5 to 6 months**. 
 | 9 | Governance basics for security people | 1 to 2 weeks |
 | 10 | Practice, community, career | ongoing |
 
+</details>
+
 **How to use it:** go in order, tick boxes as you finish, and do the hands-on task at the end of each stage. Every stage ends with a **checkpoint**, a small task that proves you got it.
 
 👉 **Read it here:** [`ROADMAP.md`](ROADMAP.md)
 👉 **Prefer a clickable chart?** Visit the SISEC website *(link coming soon)*. It draws this same roadmap, saves your progress, and updates whenever this repo changes.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 📬 Newsletter
 
@@ -85,7 +76,7 @@ Come hang out, ask questions, share what you're building, or just lurk and read.
 
 *(Invite link coming soon.)*
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 📁 What's in this repo
 
@@ -94,12 +85,17 @@ ai-security-in-public/
 ├── README.md        ← you are here
 ├── ROADMAP.md       ← the full roadmap, easy to read on GitHub
 ├── roadmap.json     ← the same roadmap as data; the website reads this file
-└── banner.svg       ← the banner at the top
+└── assets/          ← the doodle graphics used in this README
+    ├── banner.svg
+    ├── flow.svg
+    ├── start.svg
+    ├── map.svg
+    └── divider.svg
 ```
 
 > **Heads up:** the website draws its chart from `roadmap.json`. Whenever `ROADMAP.md` changes, update `roadmap.json` too so they match.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## 🙌 Contributing
 
@@ -138,13 +134,13 @@ A few small rules:
 }
 ```
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## ⚠️ A note on links
 
 Websites move and change. Please check that a link opens before you share it. Items marked "search by title" in the roadmap are best found with a quick search.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   Built in public, with ❤️ by <b>Laiba</b> and the <b>SISEC</b> community.<br>
