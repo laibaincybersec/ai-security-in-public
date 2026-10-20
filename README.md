@@ -86,11 +86,6 @@ ai-security-in-public/
 ├── ROADMAP.md       ← the full roadmap, easy to read on GitHub
 ├── roadmap.json     ← the same roadmap as data; the website reads this file
 └── assets/          ← the doodle graphics used in this README
-    ├── banner.svg
-    ├── flow.svg
-    ├── start.svg
-    ├── map.svg
-    └── divider.svg
 ```
 
 > **Heads up:** the website draws its chart from `roadmap.json`. Whenever `ROADMAP.md` changes, update `roadmap.json` too so they match.
@@ -111,30 +106,6 @@ A few small rules:
 - In `roadmap.json`, **never change a topic's `id`**. Visitors' saved progress is stored by id.
 - Websites change. If a link is dead, say so in an issue.
 
-### How `roadmap.json` is organised
-
-```
-{
-  "common": [                      ← stages, shown in order
-    {
-      "id": "stage-4",
-      "title": "Stage 4: Attacking LLM applications",
-      "summary": "One-line goal of the stage",
-      "topics": [
-        {
-          "id": "s4-1",            ← keep this stable
-          "title": "Direct prompt injection",
-          "desc": "What it is and why it matters",
-          "links": [ { "label": "Gandalf", "url": "https://gandalf.lakera.ai" } ]
-        }
-      ]
-    }
-  ],
-  "paths": []                      ← optional: add paths (Red Team, Blue Team...) later
-}
-```
-
-<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## ⚠️ A note on links
 
