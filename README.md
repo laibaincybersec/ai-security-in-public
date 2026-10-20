@@ -59,7 +59,7 @@ Part-time (about 5 to 8 hours a week), the whole thing takes **5 to 6 months**. 
 
 **How to use it:** go in order, tick boxes as you finish, and do the hands-on task at the end of each stage. Every stage ends with a **checkpoint**, a small task that proves you got it.
 
-👉 **Read it here:** [`roadmap.md`](ROADMAP.md)
+👉 **Read it here:** [roadmap.md](roadmap.md)
 👉 **Prefer a clickable chart?** Visit the SISEC website *(link coming soon)*. It draws this same roadmap, saves your progress, and updates whenever this repo changes.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
